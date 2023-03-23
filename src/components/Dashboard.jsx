@@ -23,6 +23,7 @@ function Dashboard() {
           <div>
             <Comments id={item.id} />
           </div>
+          <button>Show comments</button>
         </div>
       ))}
     </div>

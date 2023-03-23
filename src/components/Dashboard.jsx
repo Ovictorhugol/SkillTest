@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from "react";
+
 import Comments from "./Comments";
 import "./Dashboard.css";
 function Dashboard() {
@@ -23,7 +24,6 @@ function Dashboard() {
           <div>
             <Comments id={item.id} />
           </div>
-          <button>Show comments</button>
         </div>
       ))}
     </div>

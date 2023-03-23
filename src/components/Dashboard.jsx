@@ -16,11 +16,11 @@ function Dashboard() {
   }, []);
 
   return (
-    <div>
+    <div className="postsBody">
       {data.map((item) => (
-        <div key={item.id}>
-          <h3>{item.title} </h3>
-          <p>{item.body} </p>
+        <div key={item.id} className="posts">
+          <h3 className="postsTitle">{item.title} </h3>
+          <p className="postsContent">{item.body} </p>
           <div>
             <Comments id={item.id} />
           </div>

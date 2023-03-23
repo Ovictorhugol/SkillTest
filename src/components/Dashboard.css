@@ -1,3 +1,25 @@
 * {
-  color: black;
+  color: #f9f9f9;
+}
+
+.postsBody {
+  padding: 3rem;
+  font-family: "Roboto Mono", monospace;
+}
+
+.posts {
+  border-bottom: 1px solid rgba(218, 218, 218, 0.5);
+  margin-bottom: 2rem;
+  padding: 1.5rem;
+}
+.postsTitle {
+  font-weight: 700;
+  text-transform: uppercase;
+  font-size: 1.25rem;
+  margin-bottom: 1rem;
+}
+
+.postsContent {
+  font-size: 1rem;
+  line-height: 1.5rem;
 }

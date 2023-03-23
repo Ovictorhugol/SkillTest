@@ -1,0 +1,83 @@
+.commentsBody {
+  display: flex;
+  align-items: flex-end;
+  flex-direction: column;
+  padding: 2rem;
+}
+.commentsButton {
+  border: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: none;
+  font-weight: 700;
+  text-transform: uppercase;
+  padding: 10px 20px;
+  margin-bottom: 1rem;
+}
+
+.commentsButton:hover {
+  cursor: pointer;
+  background-color: rgba(255, 255, 255, 0.3);
+  border-radius: 50px;
+}
+
+.left-icon,
+.right-icon {
+  position: relative;
+  display: inline-block;
+  width: 15px;
+  height: 3px;
+  background: #f9f9f9;
+  border-radius: 40px;
+  transition: all 0.2s ease;
+}
+
+.left-icon:hover,
+.right-icon:hover {
+}
+
+.left-icon {
+  left: 5px;
+  transform: rotate(45deg);
+}
+.commentsButton.active .left-icon {
+  transform: rotate(135deg);
+}
+.commentsButton.active .right-icon {
+  transform: rotate(-135deg);
+}
+.commentsButton.deactive .left-icon {
+  transform: rotate(135deg);
+}
+.commentsButton.deactive .right-icon {
+  transform: rotate(-135deg);
+}
+.right-icon {
+  transform: rotate(-45deg);
+}
+
+.comments {
+  display: flex;
+  flex-direction: column;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+  margin-bottom: 1.5rem;
+}
+.comments:last-child {
+  border-bottom: none;
+}
+.commentsHeader {
+  display: flex;
+  justify-content: flex-start;
+  font-size: 1.25rem;
+  margin-bottom: 1rem;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+.commentsHeader p {
+  margin-right: 1rem;
+}
+.commentsText {
+  margin-bottom: 1rem;
+  font-weight: 300;
+}

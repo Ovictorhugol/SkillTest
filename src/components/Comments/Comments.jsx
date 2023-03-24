@@ -20,7 +20,6 @@ function Comments(props) {
 
   const handleClick = () => {
     setShowComments(!showComments);
-    console.log(showComments);
   };
   return (
     <div className="commentsBody">

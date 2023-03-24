@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 
-import Comments from "./Comments";
+import Comments from "../Comments/Comments";
 import "./Dashboard.css";
 function Dashboard() {
   const [data, setData] = useState([]);

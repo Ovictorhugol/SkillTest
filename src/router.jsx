@@ -1,7 +1,7 @@
 import React from "react";
 import { Routes, Route } from "react-router-dom";
-import Dashboard from "./components/Dashboard";
-import Comments from "./components/Comments";
+import Dashboard from "./components/Dashboard/Dashboard";
+import Comments from "./components/Comments/Comments";
 
 export default function MainRoutes() {
   return (

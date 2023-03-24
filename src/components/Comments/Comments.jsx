@@ -7,6 +7,7 @@ function Comments(props) {
   const { id } = props;
 
   const listComments = (id) => {
+    //Pega os comentarios com o numero de id que é passado por props
     const URL_COMMENTS = `https://jsonplaceholder.typicode.com/posts/${id}/comments`;
     fetch(URL_COMMENTS)
       .then((response) => response.json())

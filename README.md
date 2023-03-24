@@ -1,4 +1,4 @@
-# Getting Started with Create React App
+# Getting Started with React Application
 
 This project was made with [Vite](https://vitejs.dev/guide/).
 
